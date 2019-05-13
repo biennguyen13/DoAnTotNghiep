@@ -1,0 +1,17 @@
+
+<div class="log-w3">
+<div class="w3layouts-main">
+	<h2>Đăng nhập</h2>
+	<p >
+		{{message}}
+	</p>
+		<form action="#" method="post">
+			<input type="email" class="ggg form-control-lg" name="Email" placeholder="Nhập email" [(ngModel)]="email" required="">
+			<input type="password" class="ggg form-control-lg" name="Password" placeholder="Nhập mật khẩu" [(ngModel)]="password" required="">
+			<span><input type="checkbox" />Nhớ đăng nhập</span>
+				<div class="clearfix"></div>
+				<input type="submit" class="btn" value="Sign In" name="login" (click)="login()">
+		</form>
+</div>
+</div>
+
